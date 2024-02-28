@@ -1,1 +1,1 @@
-Welcome to the posts section
+Welcome!  This is where I publish game reviews, tips and stories. Enjoy the reads.

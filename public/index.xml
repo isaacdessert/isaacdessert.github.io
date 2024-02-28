@@ -6,21 +6,21 @@
     <description>Recent content on Desserted Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Feb 2024 13:03:42 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 28 Feb 2024 11:21:30 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Catan Tournament</title>
-      <link>http://localhost:1313/posts/catan-tournament/</link>
-      <pubDate>Mon, 26 Feb 2024 13:03:42 -0500</pubDate>
-      <guid>http://localhost:1313/posts/catan-tournament/</guid>
-      <description>hello world</description>
+      <link>http://localhost:1313/posts/catan-tourney/</link>
+      <pubDate>Wed, 28 Feb 2024 11:21:30 -0500</pubDate>
+      <guid>http://localhost:1313/posts/catan-tourney/</guid>
+      <description>I had the privilage to play and win a Catan National Qualifier last week.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:1313/newsletter/</link>
       <pubDate>Mon, 28 Mar 2022 16:03:31 -0600</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>Isaac Dessert Board Game Junkie I have competed in the professional Catan scene, finding myself at nationals competition in 2024.</description>
+      <guid>http://localhost:1313/newsletter/</guid>
+      <description>Desserted Games Newsletters NewsLetter * indicates required Email Address * /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */ What To Expect 1 - Become a better board gamer Every newsletter will have a tip on how to become a better board game player.</description>
     </item>
   </channel>
 </rss>

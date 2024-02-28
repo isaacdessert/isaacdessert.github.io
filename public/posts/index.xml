@@ -6,14 +6,14 @@
     <description>Recent content on Desserted Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Feb 2024 13:03:42 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 28 Feb 2024 11:21:30 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Catan Tournament</title>
-      <link>http://localhost:1313/posts/catan-tournament/</link>
-      <pubDate>Mon, 26 Feb 2024 13:03:42 -0500</pubDate>
-      <guid>http://localhost:1313/posts/catan-tournament/</guid>
-      <description>hello world</description>
+      <link>http://localhost:1313/posts/catan-tourney/</link>
+      <pubDate>Wed, 28 Feb 2024 11:21:30 -0500</pubDate>
+      <guid>http://localhost:1313/posts/catan-tourney/</guid>
+      <description>I had the privilage to play and win a Catan National Qualifier last week.</description>
     </item>
   </channel>
 </rss>

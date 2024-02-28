@@ -1,0 +1,121 @@
+<!-- HTML !-->
+<style>
+@import url('https://rsms.me/inter/inter.css');
+
+.card {
+  
+  --color-text: var(--color-primary-50);
+  --color-accent: var(--color-secondary-50);
+  
+  --size-bezel: .5rem;
+  --size-radius: 4px;
+  
+  line-height: 1.4;
+  
+  font-family: 'Inter', sans-serif;
+  font-size: calc(.6rem + .4vw);
+  color: var(--color-text);
+  background: var(--color-neutral-50);
+  font-weight: 300;
+  padding: 0 calc(var(--size-bezel) * 3);
+  text-align: start;
+}
+
+.headline {
+  font-weight: 900;
+}
+
+.card {
+  background: var(--color-neutral-50);
+  padding: calc(4 * var(--size-bezel));
+  margin-top: calc(4 * var(--size-bezel));
+  border-radius: var(--size-radius);
+  border: 3px solid var(--color-shadow, currentColor);
+  box-shadow: .5rem .5rem 0 var(--color-shadow, currentColor);
+  
+
+}
+
+
+.l-design-widht {
+  max-width: 40rem;
+  padding: 1rem;
+}
+
+.input {
+	 position: relative;
+}
+ .input_label {
+	 position: absolute;
+	 left: 0;
+	 top: 0;
+	 padding: calc(var(--size-bezel) * 2) calc(var(--size-bezel) * 1.5);
+	 margin: calc(var(--size-bezel) * 0.753px) calc(var(--size-bezel) * .5);
+	 background: pink;
+	 white-space: nowrap;
+	 transform: translate(0,0);
+	 transform-origin: 0 0;
+	 background: var(--color-background);
+	 transition: transform 120ms ease-in;
+	 font-weight: bold;
+	 line-height: 1.2;
+}
+ .input_field {
+	 box-sizing: border-box;
+	 display: block;
+	 width: 100%;
+	 border: 3px solid currentColor;
+	 padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+	 color: currentColor;
+	 background: transparent;
+	 border-radius: var(--size-radius);
+}
+ .input_field:focus + .input_label, .input_field:not(:placeholder-shown) + .input_label {
+	 transform: translate(.25rem,-65%) scale(.8);
+	 color: var(--color-accent);
+}
+
+.button-group {
+  margin-top: calc(var(--size-bezel) * 2.5);
+}
+
+.clickable {
+  color: currentColor;
+  padding: var(--size-bezel) calc(var(--size-bezel) * 2);
+  background: var(--color-accent);
+  border: none;
+  border-radius: var(--size-radius);
+  font-weight: 900;
+  color: var(--color-secondary-50);
+  
+  &[type=reset]{
+    background: var(--color-neutral-50);
+    font-weight: 200;
+  } 
+}
+
+.clickable + .clickable {
+  margin-left: calc(var(--size-bezel) * 2);
+}
+
+.icon {
+  display: inline-block;
+  width: 1em; height: 1em;
+  margin-right: .5em;
+}
+
+.hidden {
+  display: none;
+}
+</style>
+<div class="card">
+  <h2 class="headline"> Sign up for the Newsletter</h2>
+  <label class="input">
+    <input class="input_field" type="text" placeholder=" " />
+      <span class="input_label">Email</span>
+  </label>
+ 
+  <div class="button-group">
+    <button class="clickable">Submit</button>
+  </div>
+</div>
