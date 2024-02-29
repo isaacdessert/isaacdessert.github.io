@@ -20,4 +20,4 @@ To develop the next generation of board game players and games.
 
 ## Join the Newsletter to stay up to date!
 
-{{<newsletter-signup>}}
+{{<mailchimp>}}

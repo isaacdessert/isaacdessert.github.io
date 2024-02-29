@@ -10,7 +10,7 @@ showAuthor: false
 
 # Desserted Games Newsletters
 
-{{<newsletter-signup>}}
+{{<mailchimp>}}
 
 ---
 # What To Expect

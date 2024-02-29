@@ -225,7 +225,10 @@
 <hr>
 <h1 id="mission" class="relative group">Mission </h1><p>To develop the next generation of board game players and games.</p>
 <h2 id="join-the-newsletter-to-stay-up-to-date" class="relative group">Join the Newsletter to stay up to date! </h2>
-<style>
+<div id="mc_embed_shell">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css"
+        rel="stylesheet" type="text/css">
+    <style type="text/css">
 @import url('https://rsms.me/inter/inter.css');
 
 .card {
@@ -302,18 +305,19 @@
 }
 
 .button-group {
+  flex: 1;
   margin-top: calc(var(--size-bezel) * 2.5);
+  width: var(--size-bezel);
 }
 
 .clickable {
   color: currentColor;
   padding: var(--size-bezel) calc(var(--size-bezel) * 2);
   background: var(--color-accent);
-  border: none;
   border-radius: var(--size-radius);
   font-weight: 900;
   color: var(--color-secondary-50);
-  
+
   &[type=reset]{
     background: var(--color-neutral-50);
     font-weight: 200;
@@ -322,6 +326,19 @@
 
 .clickable + .clickable {
   margin-left: calc(var(--size-bezel) * 2);
+}
+
+.clickable {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+   
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.clickable:hover {
+  transform: translateY(-5px);  
+   
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 .icon {
@@ -333,18 +350,55 @@
 .hidden {
   display: none;
 }
+
+.clear {
+    flex: 1;
+    flex-grow: 4;
+}
+
+.container {
+  display: flex;
+}
+
 </style>
-<div class="card">
-  <h2 class="headline"> Sign up for the Newsletter</h2>
-  <label class="input">
-    <input class="input_field" type="text" placeholder=" " />
-      <span class="input_label">Email</span>
-  </label>
- 
-  <div class="button-group">
-    <button class="clickable">Submit</button>
-  </div>
-</div>
+    <div id="mc_embed_signup" class="card">
+        <form
+            action="https://gmail.us22.list-manage.com/subscribe/post?u=65e4edea43e915063a2ce97fa&amp;id=c6f3313d79&amp;f_id=0046c2e1f0"
+            method="post" id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form" class="validate" target="_blank">
+            <div id="mc_embed_signup_scroll" class="headline"><h2>Desserted
+                    Newsletter</h2>
+                <div class="mc-field-group"><label for="mce-EMAIL">Email Address
+                        <span class="asterisk">*</span></label><input
+                        type="email" name="EMAIL" class="input_field"
+                        id="mce-EMAIL" required="true" value></div>
+                <div hidden><input type="hidden" name="tags" value="272"></div>
+                <div aria-hidden="true"
+                    style="position: absolute; left: -5000px;">
+                    /* real people should not fill this in and expect good
+                    things - do not remove this or risk form bot signups */
+                    <input type="text"
+                        name="b_65e4edea43e915063a2ce97fa_c6f3313d79"
+                        tabindex="-1" value>
+                </div>
+                <div class="container">
+                    <div class="button-group">
+                        <input type="submit" name="subscribe" class="clickable"
+                            value="Subscribe">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response"
+                            style="display: none;"></div>
+                        <div class="response" id="mce-success-response"
+                            style="display: none;"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript"
+        src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script
+        type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
 
 </section>
 </article>

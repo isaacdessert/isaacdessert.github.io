@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Desserted Studios</title>
+    <title>Intro to Posts on Desserted Studios</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content on Desserted Studios</description>
+    <description>Recent content in Intro to Posts on Desserted Studios</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 28 Feb 2024 11:21:30 -0500</lastBuildDate>
