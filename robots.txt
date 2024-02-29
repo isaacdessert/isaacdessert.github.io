@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: codemonckey.github.io/sitemap.xml
