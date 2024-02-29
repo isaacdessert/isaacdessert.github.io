@@ -1,4 +1,4 @@
-baseURL = "https://codemonckey.github.io/board-game-website/"
+baseURL = "https://codemonckey.github.io/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'congo'
