@@ -8,7 +8,7 @@ I had the privilage to play and win a Catan National Qualifier last week.  I cam
 
 ℹ️ Information for the events rules can be found at the [official Catans event page](https://catanevents.com/hosts/tournament-rules)
 
-## How I won
+## General Thoughts
 
 As is the general form in Catan a lot of the game comes down to the roll of the dice.  I got crushed one of the qualifying games with only 4 points because the 9 was rolled more than the 6 and 8 combined!  Largely to increase your odds there are a number of useful things to hedge your odds against.  The things I like prioritize is controlling scarce resources and being specialized in brick, wheat or stone.  I also prefer to go for a development card/city strategy.  I find this to be very powerful.  I generally see opponents get less concerned about a stack of development cards than roads and settlements.  I won the final game decisively by hording a stack of development cards and playing a timely monopoly that pushed be far enough ahead where I couldn't be caught.
 
