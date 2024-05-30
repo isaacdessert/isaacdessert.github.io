@@ -5,19 +5,8 @@ showDate: false
 showReadingTime: false
 showHeadingAnchors: false
 showTableOfContents: false
-showAuthor: false
+showAuthor: true
 ---
 
-#### Reviews - Newsletters - Next Generation Games
 
-Hello and welcome.  We are glad you are here.  Subscribe to the newsletter if you want to become a better player and learn more about board games.  Also, some good reviews and reads can be found at [posts.]({{< ref "/posts" >}})
-
----
-
-# Mission
-To develop the next generation of board game players and games. 
-
-
-## Join the Newsletter to stay up to date!
-
-{{<mailchimp>}}
+Welcome to my website, my name is Isaac Dessert and I love creating things.  If you like making cool things too, please reach out!

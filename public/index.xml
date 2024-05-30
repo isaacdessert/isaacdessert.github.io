@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Desserted Studios</title>
+    <title>Isaac Dessert</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Desserted Studios</description>
+    <description>Recent content on Isaac Dessert</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Feb 2024 11:21:30 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 28 Mar 2022 16:03:31 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Catan Tournament</title>
-      <link>http://localhost:1313/posts/catan-tourney/</link>
-      <pubDate>Wed, 28 Feb 2024 11:21:30 -0500</pubDate>
-      <guid>http://localhost:1313/posts/catan-tourney/</guid>
-      <description>I had the privilage to play and win a Catan National Qualifier last week.</description>
-    </item>
-    <item>
       <title></title>
-      <link>http://localhost:1313/newsletter/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 28 Mar 2022 16:03:31 -0600</pubDate>
-      <guid>http://localhost:1313/newsletter/</guid>
-      <description>Desserted Games Newsletters Desserted Newsletter Email Address * /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */ What To Expect 1 - Become a better board gamer Every newsletter will have a tip on how to become a better board game player.</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Professional I started my profressional career as a whee lad.</description>
     </item>
   </channel>
 </rss>
